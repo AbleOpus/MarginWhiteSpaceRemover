@@ -1,0 +1,35 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MarginWhiteSpaceRemover.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="CheckBoxReplaceTabs" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="NumberBoxTabSpaces" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="RichTextBoxOrig" Type="System.String" Scope="User">
+      <Value Profile="(Default)">        /// &lt;summary&gt;
+        /// Generates the specified amount of space characters.
+        /// &lt;/summary&gt;
+        /// &lt;param name="count"&gt;The space character count.&lt;/param&gt;
+        public static string GenerateSpaces(int count)
+        {
+            StringBuilder SB = new StringBuilder();
+
+            for (int i = 0; i &lt; count; i++)
+            {
+                SB.Append(' ');
+            }
+
+            return SB.ToString();
+        }</Value>
+    </Setting>
+    <Setting Name="CheckBoxAutoTrim" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="CheckBoxMinimizeToTray" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
